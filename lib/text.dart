@@ -36,8 +36,7 @@ class TextDisplayPage extends StatelessWidget {
             icon: Icon(Icons.share),
             onPressed: () {
               if (scannedText.isNotEmpty) {
-                // Implement share functionality here
-                // You can use the share package or any other method to share the text
+                
               } else {
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(

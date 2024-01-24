@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.white,
-                          foregroundColor: Colors.grey,
+                          foregroundColor: Colors.white,
                           shadowColor: Colors.grey[400],
                           elevation: 10,
                           shape: RoundedRectangleBorder(
