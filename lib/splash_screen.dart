@@ -29,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
     _controller.play();
 
     await Future.delayed(const Duration(seconds: 8));
-    Navigator.pushNamed(context, '/home');
+    Navigator.pushReplacementNamed(context, '/home');
   }
 
   @override
